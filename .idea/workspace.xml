@@ -5,130 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b3d13c-43ea-4664-a351-4cb2500eb3df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Abominator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Ammunition Gland.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Angular Advantage Tactical Ammunition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Augmented Arms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Cursed Torch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/First Aid Kit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Flechette Grenade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Grappendix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/HE Grenade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/ZZzzz Special Sedative Grenade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/arms/Zomy-X200 Portable Casette Player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Biojet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Biothruster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Bouncy Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level II Body Armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level III Body Armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level IIb Body Armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level IV Body Armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level V Biosuit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/CSIJ Level VI Golem Exoskeleton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Extravagant Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Hazmat Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Load Bearing Vest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Military Camoflage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Stealth Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chest/Tactical Blast Shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Composite Helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Cortical Scaledown+.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Eyes of Corporate Insight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Flowerchute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Goo Overdrive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Holy Scope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Life Sensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Night Vision Goggles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Nightmare Vision Goggles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Skull Gun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Tattered Rain Hat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/head/Zoom n Go Bionic Eyes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Alien Leg Wetware.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Funk Grunters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Gunkboosters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Icaros Machine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Microbial Oil Secretion Glands.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Pneumatic Legs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Speed Enhancer Gland.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Speed Enhancer Node Cluster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Speed Enhancer Total Organ Package.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/legs/Vertical Entry Device.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Alpine Hospitality.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Androgen Assault.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Apartment Atrocity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Archon Grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Bog Business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Casino Catastrophe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Cruelty Squad Headquarters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Darkworld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/House.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Idiot Party.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Mall Madness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Miner's Miracle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Neuron Activator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Office.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Paradise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Pharmakokinetiks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Seaside Shock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Sin Space Engineering.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/missions/Trauma Loop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/chaos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_chaos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_punishment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/punishment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/AMG4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Abscess Ironworks Lux ff374f727ce9d6de93be0793733c321.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/BAG-82.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/BN-99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Balotelli Hypernova.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Bolt ACR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Expandable Baton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Fiberglass Fishing Rod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Flashlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/K&amp;H R5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/K&amp;H X20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Minato M9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Mowzer SP99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/New Safety M62.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Parasonic C3 DNA Scrambler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Parasonic D2 Silenced Pistol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Parasonic MP-1 Nailer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Precise Industry AS15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/RPO-80 Sanitization System.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Raymond Shocktroop Tactical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Riot Pacifier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/SNOOZFEST Animal Control Pistol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Security Systems Anti-Armor Device.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Security Systems Cerebral Bore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Spectacular Dynamics MCR Carbine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Stern AWS 3000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Stern M17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/ZKZ Transactional Rifle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/weapons_except_noweapon/Zippy 3000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Divine Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Flesh Automaton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Hope Eradicated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Power is misery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/divine_light_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AntoniPanferov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AntoniPanferov/crus-loadout-randomizer.git&quot;,
+    &quot;accountId&quot;: &quot;bd929d89-2a13-47c9-b3ec-21a615030744&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -136,11 +52,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vVH9I1JIZuntorvOzhwBTPEs9q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -150,18 +68,39 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/panan/IdeaProjects/crus-randomizer"
+    "last_opened_file_path": "C:/Users/panan/IdeaProjects/test"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer\images" />
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crusloadoutrandomizer.Main" />
+      <module name="crus-loadout-randomizer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crusloadoutrandomizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -173,5 +112,16 @@
       <updated>1744223178687</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
