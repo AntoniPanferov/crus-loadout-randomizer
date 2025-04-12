@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b3d13c-43ea-4664-a351-4cb2500eb3df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Divine Light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Flesh Automaton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Hope Eradicated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Power is misery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/fonts/MINGLIU.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/divine_light_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Power is misery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Power Is Misery.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,11 +70,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/panan/IdeaProjects/test"
+    "last_opened_file_path": "C:/Users/panan/IdeaProjects/crus-loadout-randomizer/src/main/resources/com/crusloadoutrandomizer/fonts",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer\fonts" />
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer\images" />
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\images" />
     </key>
@@ -112,16 +114,5 @@
       <updated>1744223178687</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

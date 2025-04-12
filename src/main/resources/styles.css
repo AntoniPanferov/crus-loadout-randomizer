@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "CrusFont";
+    src: url("../../src/main/resources/com/crusloadoutrandomizer/fonts/MINGLIU.ttf") format('truetype');
+}
+
+.label, .button {
+    -fx-font-size: 20px;
+    -fx-text-fill: #00ff00;
+}
+
+.button {
+    -fx-background-color: #ff0000
+}

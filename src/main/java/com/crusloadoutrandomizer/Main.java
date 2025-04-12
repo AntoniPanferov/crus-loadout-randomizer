@@ -11,6 +11,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.io.FileInputStream;
@@ -20,11 +21,20 @@ import java.net.URL;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+
+
+
+
+
+
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 640, 480);
+        scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
+
+        scene.getRoot().setStyle("-fx-font-family: 'MINGLIU';");
 
 
-        stage.setTitle("Gorbino´s slot machine | 500 hours of mind pumping gambling!") ;
+        stage.setTitle("Gorbino´s slots | 500 hours of mind pumping gambling!") ;
         stage.setScene(scene);
         stage.show();
     }
@@ -53,11 +63,6 @@ public class Main extends Application {
             });
 
 
-
-
-// set background
-            //hb.setBackground(bg);
-// scene setting
             st.show();
         }
         catch (Exception e) {

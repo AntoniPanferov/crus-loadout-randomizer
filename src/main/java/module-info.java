@@ -1,5 +1,6 @@
 module com.crusloadoutrandomizer {
     requires javafx.controls;
+    requires javafx.media;
     requires javafx.fxml;
     requires java.desktop;
 
