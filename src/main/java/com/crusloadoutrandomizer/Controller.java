@@ -16,12 +16,16 @@ import javafx.util.Duration;
 
 import java.io.File;
 
+import static com.crusloadoutrandomizer.ImageGroups.*;
+
 public class Controller {
     @FXML private AnchorPane anpMain;
     @FXML private GridPane grpMain;
 
-    @FXML private ImageView imvHead, imvChest, imvArms, imvLegs;
-    @FXML private Label lblHead, lblChest, lblArms, lblLegs;
+    @FXML private ImageView imvHead, imvChest, imvArms, imvLegs, imvWeapon1, imvWeapon2, imvMission, imvPunishment, imvChaos;
+    @FXML private Label lblHead, lblChest, lblArms, lblLegs, lblWeapon1, lblWeapon2, lblMission, lblPunishment, lblChaos;
+
+    private Slot slotHead, slotChest, slotArms, slotLegs, slotWeapon1, slotWeapon2, slotMission, slotPunishment, slotChaos;
 
     private double defaultPadding = 60;
     private double initialLoadoutWidth;
@@ -34,30 +38,78 @@ public class Controller {
         anpMain.setBackground(imageProcessor.imageToBackground(
                 imageProcessor.findImage("Divine Light.png")));
 
-        roll(imvHead, lblHead);
-        roll(imvChest, lblChest);
-
         anpMain.widthProperty().addListener((obs, oldVal, newVal) -> {
             double scale = (double)newVal / anpMain.getPrefWidth();
-
-
-            //grpMain.setPadding(new Insets(anpMain.getPadding().getTop(), defaultPadding * scale, anpMain.getPadding().getBottom(), defaultPadding * scale));
             grpMain.setPadding(new Insets(defaultPadding * scale));
         });
         anpMain.heightProperty().addListener((obs, oldVal, newVal) -> {
             double scale = (double)newVal / anpMain.getPrefHeight();
-            //grpMain.setPadding(new Insets(defaultPadding * scale, anpMain.getPadding().getRight(), defaultPadding * scale, anpMain.getPadding().getLeft()));
             grpMain.setPadding(new Insets(defaultPadding * scale));
-
-
         });
 
+        slotHead = new Slot(imvHead, lblHead, HEAD);
+        slotChest = new Slot(imvChest, lblChest, CHEST);
+        slotArms = new Slot(imvArms, lblArms, ARMS);
+        slotLegs = new Slot(imvLegs, lblLegs, LEGS);
+        slotWeapon1 = new Slot(imvWeapon1, lblWeapon1, WEAPONS);
+        slotWeapon2 = new Slot(imvWeapon2, lblWeapon2, WEAPONS);
+        slotMission = new Slot(imvMission, lblMission, MISSIONS);
+        slotPunishment = new Slot(imvPunishment, lblPunishment, PUNISHMENT);
+        slotChaos = new Slot(imvChaos, lblChaos, CHAOS);
+    }
+
+    @FXML
+    private void handleRerollAllClick() {
+        slotHead.roll();
+        slotChest.roll();
+        slotArms.roll();
+        slotLegs.roll();
+        slotMission.roll();
+        slotWeapon1.roll();
+        slotWeapon2.roll();
+        slotPunishment.roll();
+        slotChaos.roll();
+    }
+
+    @FXML
+    private void handleHeadClick() {
+        slotHead.roll();
+    }
+
+    @FXML
+    private void handleChestClick() {
+        slotChest.roll();
+    }
+
+    @FXML
+    private void handleArmsClick() {
+        slotArms.roll();
+    }
+
+    @FXML
+    private void handleLegsClick() {
+        slotLegs.roll();
+    }
+
+    @FXML
+    private void handleWeapon1Click() {
+        slotWeapon1.roll();
+    }
+
+    @FXML
+    private void handleWeapon2Click() {
+        slotWeapon2.roll();
+    }
+
+    @FXML
+    private void handleMissionClick() {
+        slotMission.roll();
     }
 
     private void roll(ImageView imageView, Label label) {
 
-
-//        int idx = (int)(Math.random() * files.length);
+        System.out.println("asdasdas");
+        //        int idx = (int)(Math.random() * files.length);
 //        Image image = imageProcessor.findImage(files[idx].getName());
 //        String name = files[idx].getName();
 //
@@ -67,7 +119,7 @@ public class Controller {
     }
 
     public void startAnimation(ImageView imageView, Label label) {
-        ImageProcessor imageProcessor = new ImageProcessor(ImageGroups.HEAD);
+        ImageProcessor imageProcessor = new ImageProcessor(HEAD);
         File[] files = imageProcessor.getFiles();
 
 
@@ -88,10 +140,6 @@ public class Controller {
 
         timeline.getKeyFrames().add(keyFrame);
         timeline.play();
-
-
-
-
     }
 
 

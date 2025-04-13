@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b1b3d13c-43ea-4664-a351-4cb2500eb3df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/chaos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chaos/Chaos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_chaos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chaos/No Chaos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_punishment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/punishment/No Punishment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/punishment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/punishment/Punishment.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +80,7 @@
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer\images\punishment" />
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer" />
     </key>
   </component>
@@ -105,5 +114,21 @@
       <updated>1744223178687</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

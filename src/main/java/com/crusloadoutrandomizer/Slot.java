@@ -1,10 +1,13 @@
 package com.crusloadoutrandomizer;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
 
 import javax.imageio.ImageIO;
 import javax.sound.sampled.AudioInputStream;
@@ -15,17 +18,17 @@ import java.net.URL;
 import java.time.LocalTime;
 
 
-public class Slot implements Runnable {
+public class Slot {
     private final ImageView imageView;
     private final Label label;
     private final ImageProcessor imageProcessor;
     private final File[] files;
     private MediaPlayer mediaPlayer;
 
-    public Slot(ImageView imageView, Label label, ImageProcessor imageProcessor) {
+    public Slot(ImageView imageView, Label label, ImageGroups imageGroup) {
         this.imageView = imageView;
         this.label = label;
-        this.imageProcessor = imageProcessor;
+        this.imageProcessor = new ImageProcessor(imageGroup);
         files = imageProcessor.getFiles();
 
     }
@@ -42,30 +45,25 @@ public class Slot implements Runnable {
         mediaPlayer.play();
     }
 
-    @Override
-    public void run() {
-
+    public void roll() {
         test();
+        int baseDelay = 100;
+        int iterations = 100;
 
+        Timeline timeline = new Timeline();
+        timeline.setCycleCount(iterations);
 
-        int base = 100;
+        KeyFrame keyFrame = new KeyFrame(Duration.millis(baseDelay), event -> {
+            int idx = (int)(Math.random() * files.length);
+            Image image = imageProcessor.findImage(files[idx].getName());
+            String name = files[idx].getName();
 
-        System.out.println(LocalTime.now());
-//        for (int i = 10; i < 500; i+=10) {
-//            base += i;
-//            int idx = (int)(Math.random() * files.length);
-//
-//            try {
-//                imageView.setImage(imageProcessor.findImage(files[idx].getName()));
-//                Thread.sleep(base);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }
+            imageView.setImage(image);
+            label.setText(name);
+        });
 
-
-        System.out.println(LocalTime.now());
-
+        timeline.getKeyFrames().add(keyFrame);
+        timeline.play();
     }
 }
 

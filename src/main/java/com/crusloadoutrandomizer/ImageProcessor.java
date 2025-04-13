@@ -21,7 +21,8 @@ public class ImageProcessor {
 
     protected File[] getFiles() {
         try {
-            return new File(getClass().getResource("/com/crusloadoutrandomizer/images/head/").toURI()).listFiles();
+            //todo hardcoded
+            return new File(getClass().getResource(String.format("/com/crusloadoutrandomizer/%s/%s/", pathRoot, imageGroup.toString())).toURI()).listFiles();
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
