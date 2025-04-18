@@ -1,7 +1,7 @@
 package com.crusloadoutrandomizer;
 
-public enum ImageGroups {
-    ARMS, BORDERS, BORDERS_W_BG, CHEST, HEAD, LEGS, MISC, WEAPONS, MISSIONS, PUNISHMENT, CHAOS;
+public enum ImageGroup {
+    ARMS, BORDERS, CHEST, HEAD, LEGS, WEAPONS, MISSIONS, PUNISHMENT, CHAOS;
 
     @Override
     public String toString() {

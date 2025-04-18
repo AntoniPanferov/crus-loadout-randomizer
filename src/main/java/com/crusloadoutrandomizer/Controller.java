@@ -6,17 +6,14 @@ import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
-import javafx.scene.media.Media;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.media.MediaPlayer;
-import javafx.scene.text.Font;
 import javafx.util.Duration;
 
 import java.io.File;
 
-import static com.crusloadoutrandomizer.ImageGroups.*;
+import static com.crusloadoutrandomizer.ImageGroup.*;
 
 public class Controller {
     @FXML private AnchorPane anpMain;
@@ -25,18 +22,15 @@ public class Controller {
     @FXML private ImageView imvHead, imvChest, imvArms, imvLegs, imvWeapon1, imvWeapon2, imvMission, imvPunishment, imvChaos;
     @FXML private Label lblHead, lblChest, lblArms, lblLegs, lblWeapon1, lblWeapon2, lblMission, lblPunishment, lblChaos;
 
-    private Slot slotHead, slotChest, slotArms, slotLegs, slotWeapon1, slotWeapon2, slotMission, slotPunishment, slotChaos;
+    private Slot slotHead, slotChest, slotArms, slotLegs, slotWeapon1, slotWeapon2, slotMission, slotPunishment, slotChaos, slotBorder;
+    private Slot[] slots;
 
     private double defaultPadding = 60;
-    private double initialLoadoutWidth;
-    private double initialLoadoutHeight;
-    private double initialImageSize = 50.0;
 
     @FXML
     public void initialize() {
-        ImageProcessor imageProcessor = new ImageProcessor(ImageGroups.BORDERS_W_BG);
-        anpMain.setBackground(imageProcessor.imageToBackground(
-                imageProcessor.findImage("Divine Light.png")));
+        ImageProcessor imageProcessor = new ImageProcessor(BORDERS);
+        anpMain.setBackground(imageProcessor.imageToBackground(imageProcessor.findImage("Divine Light.png")));
 
         anpMain.widthProperty().addListener((obs, oldVal, newVal) -> {
             double scale = (double)newVal / anpMain.getPrefWidth();
@@ -56,19 +50,29 @@ public class Controller {
         slotMission = new Slot(imvMission, lblMission, MISSIONS);
         slotPunishment = new Slot(imvPunishment, lblPunishment, PUNISHMENT);
         slotChaos = new Slot(imvChaos, lblChaos, CHAOS);
+        slotBorder = new Slot(null, null, BORDERS);
+
+        slots = new Slot[] {
+                slotHead, slotChest, slotArms, slotLegs,
+                slotMission, slotWeapon1, slotWeapon2,
+                slotPunishment, slotChaos
+        };
     }
 
     @FXML
     private void handleRerollAllClick() {
-        slotHead.roll();
-        slotChest.roll();
-        slotArms.roll();
-        slotLegs.roll();
-        slotMission.roll();
-        slotWeapon1.roll();
-        slotWeapon2.roll();
-        slotPunishment.roll();
-        slotChaos.roll();
+        for (Slot slot : slots) {
+            slot.roll();
+        }
+        slotBorder.rollBackground(anpMain);
+    }
+
+    @FXML
+    private void handleQuickReroll() {
+        for (Slot slot : slots) {
+            slot.roll(1);
+        }
+        slotBorder.rollBackground(1, anpMain);
     }
 
     @FXML
@@ -106,16 +110,19 @@ public class Controller {
         slotMission.roll();
     }
 
-    private void roll(ImageView imageView, Label label) {
+    @FXML
+    private void handlePunishmentClick() {
+        slotPunishment.roll();
+    }
 
-        System.out.println("asdasdas");
-        //        int idx = (int)(Math.random() * files.length);
-//        Image image = imageProcessor.findImage(files[idx].getName());
-//        String name = files[idx].getName();
-//
-//        imageView.setImage(image);
-//        label.setText(name);
-        startAnimation(imageView, label);
+    @FXML
+    private void handleChaosClick() {
+        slotChaos.roll();
+    }
+
+    @FXML
+    private void handleBorderClick() {
+        slotBorder.rollBackground(anpMain);
     }
 
     public void startAnimation(ImageView imageView, Label label) {

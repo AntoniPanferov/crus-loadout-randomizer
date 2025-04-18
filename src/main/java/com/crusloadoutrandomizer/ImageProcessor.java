@@ -8,9 +8,9 @@ import java.net.URISyntaxException;
 
 public class ImageProcessor {
     private String pathRoot;
-    private ImageGroups imageGroup;
+    private ImageGroup imageGroup;
 
-    protected ImageProcessor(ImageGroups imageGroup) {
+    protected ImageProcessor(ImageGroup imageGroup) {
         pathRoot = "images";
         this.imageGroup = imageGroup;
     }
@@ -20,8 +20,8 @@ public class ImageProcessor {
     }
 
     protected File[] getFiles() {
+        //todo hardcoded
         try {
-            //todo hardcoded
             return new File(getClass().getResource(String.format("/com/crusloadoutrandomizer/%s/%s/", pathRoot, imageGroup.toString())).toURI()).listFiles();
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);

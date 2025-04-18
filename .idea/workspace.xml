@@ -6,15 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b1b3d13c-43ea-4664-a351-4cb2500eb3df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/ImageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/chaos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chaos/Chaos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_chaos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/chaos/No Chaos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/no_punishment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/punishment/No Punishment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/modifiers/punishment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/punishment/Punishment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Divine Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Divine Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Flesh Automaton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Flesh Automaton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Hope Eradicated.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Hope Eradicated.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Power is misery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Divine Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Flesh Automaton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Hope Eradicated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders_w_bg/Power Is Misery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/borders/Power Is Misery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/images/misc/loadout_menu.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/crusloadoutrandomizer/sounds/slot_machine.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +73,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.crus-loadout-randomizer-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crus-loadout-randomizer [deploy].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/panan/IdeaProjects/crus-loadout-randomizer/src/main/resources/com/crusloadoutrandomizer/fonts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3827047&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -84,7 +97,7 @@
       <recent name="C:\Users\panan\IdeaProjects\crus-loadout-randomizer\src\main\resources\com\crusloadoutrandomizer" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.crusloadoutrandomizer.Main" />
       <module name="crus-loadout-randomizer" />
@@ -98,8 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="crus-loadout-randomizer-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/crus-loadout-randomizer-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.crus-loadout-randomizer-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -114,21 +132,5 @@
       <updated>1744223178687</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/crusloadoutrandomizer/Slot.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

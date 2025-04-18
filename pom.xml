@@ -79,4 +79,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <url>https://github.com/AntoniPanferov/crus-loadout-randomizer/releases/</url>
+        </repository>
+    </distributionManagement>
 </project>
+
